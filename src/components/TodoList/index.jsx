@@ -38,7 +38,7 @@ const AnimeList = ({ api }) => {
           </div>
         </div>
       )}
-      <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-4 px-4">
+      <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-1 gap-4 px-4">
         {api.map((data, index) => {
           const badge =
             data?.status == "uncomplete"
